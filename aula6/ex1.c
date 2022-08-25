@@ -5,7 +5,7 @@ int main(){
 	setlocale(LC_ALL,"");
 	int n1 [5];
 	int n2 [5];
-	int i=0, p=0;
+	int i, p;
 	
 	for(i=0; i<5; i++){
 		printf("Digite os 5 números para o primeiro vetor: ");
@@ -32,9 +32,9 @@ int main(){
 
 	printf("\n");
 	printf("A soma dos vetores é: ");
-	printf("%d", n1[1] + n2[1]);
+	printf("%d", n1[0] + n2[4]);
+	printf("%d", n1[1] + n2[3]);
 	printf("%d", n1[2] + n2[2]);
-	printf("%d", n1[3] + n2[3]);
-	printf("%d", n1[4] + n2[4]);
-	printf("%d", n1[5] + n2[5]);
+	printf("%d", n1[3] + n2[1]);
+	printf("%d", n1[4] + n2[0]);
 }
