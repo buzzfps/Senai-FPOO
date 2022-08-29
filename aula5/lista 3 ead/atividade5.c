@@ -18,7 +18,7 @@ int main(){
 		
 		delta = (b, 2) - (4 * a * c);
 		
-		else if (delta == 0){
+		if (delta == 0){
 			raiz1 = (-b) / (2 * a);
 			printf("O delta é 0, a raiz é %f,", raiz1);
 		}else{

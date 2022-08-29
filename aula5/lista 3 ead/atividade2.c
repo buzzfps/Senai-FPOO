@@ -9,7 +9,7 @@ int main(){
     scanf("%f", &salarioH);
     
     printf("Digite quantas horas você trabalhou esse mês: ");
-    scanf("%f", &horasTrabalhadas);
+    scanf("%f", &horastrabalhadas);
 
     salarioB = salarioH * horastrabalhadas;
     
@@ -30,7 +30,3 @@ int main(){
     
     
 }
-
-
-
-
