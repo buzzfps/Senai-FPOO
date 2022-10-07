@@ -55,12 +55,9 @@ public class Main {
 		vendas[9].preco = 3034.3f;
 		vendas[9].quantidade = 1;
 		
-		float total = 0;
 		for(int i = 0; i < 10; i++) {
 			System.out.printf("%s\t%.2f\t%d\t%.2f\n", vendas[i].produto, vendas[i].preco, vendas[i].quantidade, vendas[i].subtotal());
-			total += vendas[i].subtotal();
-		}
-		System.out.printf("Total: R$ %.2f\n", total);
+		}	
 	}
 
 }
